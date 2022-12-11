@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+
+        background-image: linear-gradient(to right, rgb(202, 199, 33), rgb(25, 131, 131));
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1900px;
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+}
+.navbar:hover{
+    position: sticky;
+}
+.logo{
+    float: left;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    padding-left: 30px;
+
+}
+
+.menu{
+    list-style: none;
+    float: left;
+    display: flex;
+    padding-left: 600px;  
+}
+ul{
+    margin-left: 10vh;
+}
+ul li{
+    list-style: none;
+    float: left;
+    padding-left: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    font-weight: bolder;
+    line-height: 2px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(10, 117, 108);
+}
+
+ul li a:hover{
+    color: rgb(229, 233, 27);
+}
+.pt1{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.des{
+    padding-top: 17vh;
+    padding-left: 100px;
+    width: 1200px;
+}
+.des h1{
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: Georgia;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+.des p{
+    color: rgb(10, 117, 108);
+    font-weight: lighter;
+    font-size: 23px;
+    line-height: 1.8rem;
+}
+.but{
+    padding-left: 300px;
+    padding-top: 50px;
+}
+.btn{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 80px;
+    border-style: hidden;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: translate3d(7px, 7px, 7px);
+}
+.btn a{
+    text-decoration: none;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(10, 117, 108);
+}
+.d2{
+    background-color: rgba(256, 256, 256, 0.5);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15%;
+    padding: 10%;
+    margin-top: 18vh;
+    text-align: center;
+    font-family: arial;
+}
+.d2 h2{
+    font-size: 30px;
+}
+
+/* register */
+
+form{
+    padding-left: 30%;
+    padding-top: 5vh;
+}
+.hdng{
+    background-color: rgb(63, 197, 114);
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Arial;
+    text-align: center;
+    color: antiquewhite;
+}
+.frm{
+    margin: 10px;
+    backface-visibility: visible;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 700px;
+    height: 800px;
+    border-style: groove;
+    border-color: black;
+    
+}
+input[type="radio"]{
+    width: 30px;
+    height: 30px;
+    
+}
+input{
+    width: 300px;
+    height: 40px;
+}
+select{
+    width: 300px;
+    height: 40px;
+}
+.su{
+    padding-left: 200px;
+    padding-top: 10px;
+}
+
+.pt1 img{
+    margin-top: 5px;
+    margin-left: 5%;
+}

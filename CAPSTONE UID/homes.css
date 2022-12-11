@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+
+        background-image: linear-gradient(rgb(6, 104, 66),rgb(108, 216, 189), rgb(104, 181, 202), rgb(66, 211, 155));
+    background-position: center;
+    background-blend-mode: color-dodge;
+    background-size: contain;
+    width: 1900px;
+    height: 1400px;
+}
+
+.navbar{
+    width: 1900px;
+    height: 110px;
+    background-color: rgb(19, 5, 43);
+}
+
+.logo{
+    float: left;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.icon{
+    font-size: 40px;
+    color: rgb(10, 117, 108);
+}
+
+.menu{
+    list-style: none;
+    float: left;
+    display: flex;
+    padding-left: 600px;
+}
+ul li{
+    list-style: none;
+    float: left;
+    padding-left: 50px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    font-weight: bolder;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(10, 117, 108);
+}
+
+ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+form{
+    padding-left: 600px;
+}
+.hdng{
+    background-color: rgb(19, 5, 43);
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Arial;
+    text-align: center;
+    color: antiquewhite;
+}
+.frm{
+    margin: 10px;
+    backface-visibility: visible;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 700px;
+    height: 1250px;
+    border-style: groove;
+    border-color: black;
+    
+}
+input[type="radio"]{
+    width: 30px;
+    height: 30px;
+    
+}
+input{
+    width: 300px;
+    height: 40px;
+}
+select{
+    width: 300px;
+    height: 40px;
+}
+.su{
+    padding-left: 200px;
+    padding-top: 80px;
+}
+
+
+
